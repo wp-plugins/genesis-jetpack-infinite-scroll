@@ -36,9 +36,7 @@ As of now, Genesis 2.x (HTML5) is required to use this plugin. Other versions *m
 
 = How does this work? =
 
-The plugin assigns an ID to `<content>` and the footer widgets widget area (if that exists), which is what jetpack looks for to work properly. It also uses the `genesis_do_loop` instead of the standard WordPress loop that Jetpack normally looks for, and removes pagination to keep errant clicks from breaking the functionality.
-
-
+The plugin assigns an ID to `<content>` and the footer widgets widget area (if that exists), which is what Jetpack looks for to work properly. It also uses the `genesis_do_loop` instead of the standard WordPress loop that Jetpack normally looks for, and removes pagination to keep errant clicks from breaking the functionality.
 
 == Screenshots ==
 
